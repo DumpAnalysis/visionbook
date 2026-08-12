@@ -130,7 +130,7 @@ $\mathbf{x}_{\texttt{in}}\in \mathbb{R}^{N \times M}$, we get $C$ output images:
 $$\begin{aligned}
     \mathbf{x}_{\texttt{out}}[0,:,:] &= \mathbf{w}[0,:,:] \star \mathbf{x}_{\texttt{in}}+ b[0]\\
     &\vdots \nonumber\\
-    \mathbf{x}_{\texttt{out}}[C,:,:] &= \mathbf{w}[C-1,:,:] \star \mathbf{x}_{\texttt{in}}+ b[C-1]
+    \mathbf{x}_{\texttt{out}}[C-1,:,:] &= \mathbf{w}[C-1,:,:] \star \mathbf{x}_{\texttt{in}}+ b[C-1]
 \end{aligned}$${#eq-convolutional_neural_nets0-convolutional_layer_filter_bank} 
 
 Now $\mathbf{x}_{\texttt{out}}$ is an image with $C$
