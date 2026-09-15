@@ -277,7 +277,7 @@ $$\begin{aligned}
 
 Finally, if $\mathbf{W}$ is an $[N \times M]$ dimensional matrix, and
 $\mathcal{L}$ is a scalar, then the gradient
-$\frac{\partial \mathcal{L}}{\mathbf{W}}$ is represented as an
+$\frac{\partial \mathcal{L}}{\partial \mathbf{W}}$ is represented as an
 $[M \times N]$ dimensional matrix (note that the dimensions are
 transposed from what you might have expected; this makes the math
 simpler later): 
